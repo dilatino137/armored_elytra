@@ -1,0 +1,19 @@
+name: ArmoredElytra
+main: com.antipode.armored_elytra.Main
+version: 1.0-SNAPSHOT
+author: Dilatino
+api-version: 1.20.1
+commands:
+  armored_elytra:
+    description: Main command.
+    usage: /<command>
+    permission: armored_elytra.use
+    aliases: ae
+permissions:
+  armored_elytra.*:
+    description: Gives access to all ArmoredElytra commands.
+    children:
+      armored_elytra.combine: true
+  armored_elytra.use:
+    description: Allows you to combine elytras.
+    default: op

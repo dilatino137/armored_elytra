@@ -1,0 +1,6 @@
+name: Armored Elytra
+version: '${version}'
+main: com.antipode.armored_elytra.Main
+api-version: '1.20'
+authors: [Dilatino]
+description: Combine elytra with chest armors
